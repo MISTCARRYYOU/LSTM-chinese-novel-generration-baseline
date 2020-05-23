@@ -5,7 +5,7 @@ from Model import nn_LSTM
 from torch.optim.lr_scheduler import LambdaLR
 import os
 
-root = '模型保存/混合/'
+root = 'source/'
 
 with open(root + 'X_train.pickle', 'rb') as handle:
     X_train = pickle.load(handle)
