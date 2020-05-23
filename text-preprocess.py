@@ -1,9 +1,9 @@
 from scipy.sparse import csr_matrix
 import numpy as np
 import pickle
-root = '模型保存/混合/'
+root = 'source/'
 # 选择小说
-with open(root+'混合.txt', "r", encoding="utf-8") as file:
+with open(root+'鸳鸯刀.txt', "r", encoding="utf-8") as file:
     data = file.readlines()
 data=''.join(data)
 
